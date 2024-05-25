@@ -646,7 +646,7 @@ footer .hak-cipta p span {
   main article .tentang-admin {
     margin-right: 2rem;
     padding-right: 1.5rem;
-    padding-top: 5rem;/
+    padding-top: 5rem;
   }
 
   main article .tentang-admin div figure {
@@ -658,6 +658,7 @@ footer .hak-cipta p span {
     padding-top: 12rem;
     margin-top: 5rem;
     height: 240rem;
+    width: 100%;
   }
 
   main article .produk h1 {
@@ -669,3 +670,19 @@ footer .hak-cipta p span {
   }
 } 
 
+@media (max-width: 385px){
+  html {
+    font-size: 50%;
+    flex-wrap: wrap;
+  }
+
+main article .beranda {
+  /* width: 106%; */
+  /* width: 100vh; */
+} 
+
+main article .beranda div {
+  padding-right: 3rem;
+} 
+
+}
