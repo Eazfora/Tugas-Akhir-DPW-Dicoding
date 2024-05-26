@@ -18,6 +18,44 @@ html {
 }
 
 /* Bagian Header */
+
+/* cataaaaan */
+header .search-form {
+  position: absolute;
+  top: 100%;
+  right: 7%;
+  background-color: white;
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: 0.3s;
+}
+
+header .search-form.active {
+  transform: scaleY(1);
+}
+
+header .search-form input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem ;
+  color: black;
+  padding: 1rem;
+}
+
+header .search-form label {
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 1.5rem;
+  color: black;
+}
+
+
+/* cataaaaan */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -514,6 +552,8 @@ footer .hak-cipta p span {
     font-size: 62.5%;
   }
 
+  
+
   #hamburger-menu {
     display: inline-block;
   }
@@ -646,6 +686,14 @@ footer .hak-cipta p span {
     font-size: 55%;
   }
 
+  /* cataaaan */
+  header .search-form {
+    width: 90%;
+    right: 2rem;
+  }
+
+  /* cataaaan */
+
   header {
     font-size: 4rem;
   }
@@ -691,10 +739,6 @@ footer .hak-cipta p span {
   }
 
   main article .kontak .kontak-input form button {
-    margin-top: 2rem;
-  }
-
-  footer {
     margin-top: 2rem;
   }
 } 
