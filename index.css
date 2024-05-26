@@ -125,7 +125,7 @@ main article .beranda::after {
 }
 
 main article .beranda div {
-  margin: 0 0 6rem 7rem;
+  margin: 1rem 0 6rem 7rem;
 }
 
 main article .beranda div h1 {
@@ -661,15 +661,27 @@ footer .hak-cipta p span {
     margin-top: 8rem;
   }
 
+  main article .beranda div a{
+    font-size: 10px;
+  }
+
   main article .tentang-admin {
-    margin-right: 2rem;
-    padding-right: 1.5rem;
+    /* margin-right: 2rem; */
+    /* padding-right: 1.5rem; */
     padding-top: 5rem;
+    width: 100%;
   }
 
   main article .tentang-admin div figure {
-    margin-right: 2rem;
-    padding-right: 1.5rem;
+    /* margin-right: 1rem; */
+    /* padding-right: 1.5rem; */
+  }
+
+  main article .tentang-admin aside table {
+    /* margin-right: 1rem; */
+    /* padding-right: 1.5rem; */
+    /* margin: 0 10%; */
+    width: 110%;
   }
 
   main article .produk {
@@ -685,6 +697,17 @@ footer .hak-cipta p span {
 
   main article .kontak .kontak-input  {
     width: 30rem;
+    height: 35rem;
+  }
+
+  main article .kontak .kontak-input form div {
+    width: 100%;
+    height: 23%;
+    font-size: 1rem;
+  }
+
+  main article .kontak .kontak-input form button {
+    margin-top: 2rem;
   }
 } 
 
