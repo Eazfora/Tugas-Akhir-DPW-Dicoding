@@ -679,10 +679,6 @@ footer .hak-cipta p span {
     margin-bottom: 2rem;
   }
 
-  main article .kontak {
-    margin-top: 1rem;
-  }
-
   main article .kontak .kontak-input  {
     width: 30rem;
     height: 35rem;
@@ -695,6 +691,10 @@ footer .hak-cipta p span {
   }
 
   main article .kontak .kontak-input form button {
+    margin-top: 2rem;
+  }
+
+  footer {
     margin-top: 2rem;
   }
 } 
